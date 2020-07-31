@@ -194,7 +194,7 @@ footer{
 	text-align:center;
 }
 
-@media(max-width:200px){
+@media(max-width:1000px){
 	header #branding, header nav, header li,
 	#newsletter h1, #newsletter form{
 		float:none;
