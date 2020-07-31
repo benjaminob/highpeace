@@ -1,0 +1,243 @@
+body{
+	font-family: Baloo, Arial, Helvetica, san-serif;
+	font-size: 15px;
+	padding:0;
+	margin:0;
+	background: #f4f4f4;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+header{
+	background:#00628F;
+	color:#fff;
+	padding-top:30px;
+	min-height:80px;
+	border-bottom: #FDB92E 10px solid;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+.button-1{
+	height:35px;
+	background:#FDB92E;
+	border: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	color:#00628F;
+}
+
+a{
+	color:#fff;
+	text-decoration:none;
+	font-size:20px;
+}
+
+a:hover{
+	color:#FDB92E;
+}
+
+header li{
+	float:left;
+	display: inline;
+	padding: 0 20px 0 20px;
+
+}
+
+header #branding{
+	float:left;
+}
+
+header #branding img{
+	width:300px;
+	margin:0;
+	padding-bottom: 20px;
+}
+
+header nav{
+	float:right;
+	margin-top:18px;
+}
+
+.current a{
+	color:#FDB92E;
+	text-decoration:underline;
+}
+
+#showcase-1, #showcase-2, #showcase-3, #showcase-4, #showcase-5{
+	min-height: 400px;
+	text-align:center;
+	color:#fff;
+}
+
+#showcase-1{
+	 background: url('design.jpg') no-repeat 0 -200px;
+	 border-bottom: solid #FDB92E 10px;
+}
+
+#showcase-2{
+ 	background: url('branding.jpg') no-repeat 0 -200px;
+ 	border-bottom: solid #FDB92E 10px;
+}
+
+#showcase-3{
+ 	background: url('training.jpg') no-repeat 0 -200px;
+ 	border-bottom: solid #FDB92E 10px;
+}
+
+#showcase-4{
+ 	background: url('printing.jpg') no-repeat 0 -200px;
+ 	border-bottom: solid #FDB92E 10px;
+}
+
+#showcase-5{
+ 	background: url('innovations.jpg') no-repeat 0 -200px;
+}
+
+.showhead{
+	margin-top:100px;
+	font-size:55px;
+	margin-bottom: 10px;
+}
+
+.showp{
+	font-size:25px;
+}
+
+#showcase-1 .container a, #showcase-2 .container a, #showcase-3 .container a,
+#showcase-4 .container a, #showcase-5 .container a{
+	color:#FDB92E;
+}
+
+#showcase-1 .container a:hover, #showcase-2 .container a:hover, #showcase-3 .container a:hover,
+#showcase-4 .container a:hover, #showcase-5 .container a:hover{
+	color:#00628F;
+}
+
+#newsletter{
+	padding:0;
+	color:#fff;
+	background:#00628F;
+	border-top: solid #fff 5px;
+	border-bottom: solid #fff 5px;
+}
+
+#newsletter h1{
+	float:left;
+}
+
+#newsletter form{
+	float:right;
+	margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+	padding: 4px;
+	height:25px;
+	width:250px;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	margin-top:10px;
+}
+
+#main-col{
+	float:left;
+	width:65%;
+}
+
+.blue, .yellow{
+	padding:1px 15px 5px 15px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.blue ul, .yellow ul{
+	list-style: none;
+}
+
+.blue{
+	background: #00628F;
+	color:#fff;
+}
+
+.yellow{
+	background: #FDB92E;
+	color:#000;
+}
+
+.blue h3{
+	font-size:30px;
+	color:#FDB92E;
+}
+
+.yellow h3{
+	font-size:30px;
+}
+
+.page-title{
+	font-size:35px;
+}
+
+footer{
+	padding: 0px;
+	background: #FDB92E;
+	text-align:center;
+}
+
+@media(max-width:768px){
+	header #branding, header nav, header li,
+	#newsletter h1, #newsletter form{
+		float:none;
+		text-align:center;
+		width:100%;
+	}
+
+	header #branding img{
+		padding-bottom: 0;
+	}
+
+	header{
+		padding-bottom: 20px;
+	}
+
+	.showhead{
+		margin-top:40px;
+	}
+
+	#newsletter button{
+		display: block;
+		width:100%;
+	}
+
+	#newsletter form input[type="email"]{
+		width:100%;
+		margin-bottom:5px;
+	}
+
+	#main-col, #sidebar{
+		float:none;
+		width:100%;
+	}
+}
+
+@media(max-width:700px){
+		.showhead{
+			margin-top:23px;
+			font-size:50px;
+		}
+		
+		#showcase-1, #showcase-2, #showcase-3, #showcase-4, #showcase-5{
+			 background-position:-500px -200px;
+		}
+}
+	}
