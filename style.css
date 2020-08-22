@@ -233,6 +233,21 @@ footer{
 }
 
 @media(max-width:730px){
+		header #branding, header nav, header li,
+		#newsletter h1, #newsletter form{
+			float:none;
+			text-align:center;
+			width:100%;
+		}
+
+		header #branding img{
+			padding-bottom: 0;
+		}
+
+		header{
+			padding-bottom: 20px;
+		}
+	
 		.showhead{
 			margin-top:23px;
 			font-size:50px;
@@ -241,5 +256,19 @@ footer{
 		#showcase-1, #showcase-2, #showcase-3, #showcase-4, #showcase-5{
 			 background-position:-500px -200px;
 		}
-}
+	
+		#newsletter button{
+			display: block;
+			width:100%;
+		}
+
+		#newsletter form input[type="email"]{
+			width:100%;
+			margin-bottom:5px;
+		}
+
+		#main-col, #sidebar{
+			float:none;
+			width:100%;
+		}
 	}
