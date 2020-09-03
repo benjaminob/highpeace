@@ -259,6 +259,10 @@ footer{
 			 background-position:-500px -200px;
 		}
 	
+		#newsletter{
+			padding-bottom: 30px;
+		}
+	
 		#newsletter button{
 			display: block;
 			width:100%;
